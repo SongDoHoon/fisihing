@@ -3,17 +3,18 @@ using UnityEngine.UI;
 
 public class ProfileIconButton : MonoBehaviour
 {
-    public Image fishIcon;
+    public Image fishIcon;     // 이 버튼 자식의 FishIcon 이미지 (스프라이트 + enabled)
 
     public void OnClickButton()
     {
-        if (fishIcon.enabled == false)
+        // 아직 낚시로 안 뽑아서 안 열린 아이콘이면 무시
+        if (fishIcon == null || fishIcon.enabled == false)
         {
-            // 해당 물고기 안잡아서 비활성화된 경우
             Debug.Log("아직 해금되지 않은 아이콘!");
             return;
         }
 
+        // 열린 아이콘이면 선택
         ProfileUIManager.Instance.SelectIcon(fishIcon.sprite);
     }
 }
