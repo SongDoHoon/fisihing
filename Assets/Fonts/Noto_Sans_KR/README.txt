@@ -7,20 +7,20 @@ Noto Sans KR is a variable font with this axis:
   wght
 
 This means all the styles are contained in a single file:
-  NotoSansKR-VariableFont_wght.ttf
+  Noto_Sans_KR/NotoSansKR-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
 in those cases you can use the static font files for Noto Sans KR:
-  static/NotoSansKR-Thin.ttf
-  static/NotoSansKR-ExtraLight.ttf
-  static/NotoSansKR-Light.ttf
-  static/NotoSansKR-Regular.ttf
-  static/NotoSansKR-Medium.ttf
-  static/NotoSansKR-SemiBold.ttf
-  static/NotoSansKR-Bold.ttf
-  static/NotoSansKR-ExtraBold.ttf
-  static/NotoSansKR-Black.ttf
+  Noto_Sans_KR/static/NotoSansKR-Thin.ttf
+  Noto_Sans_KR/static/NotoSansKR-ExtraLight.ttf
+  Noto_Sans_KR/static/NotoSansKR-Light.ttf
+  Noto_Sans_KR/static/NotoSansKR-Regular.ttf
+  Noto_Sans_KR/static/NotoSansKR-Medium.ttf
+  Noto_Sans_KR/static/NotoSansKR-SemiBold.ttf
+  Noto_Sans_KR/static/NotoSansKR-Bold.ttf
+  Noto_Sans_KR/static/NotoSansKR-ExtraBold.ttf
+  Noto_Sans_KR/static/NotoSansKR-Black.ttf
 
 Get started
 -----------

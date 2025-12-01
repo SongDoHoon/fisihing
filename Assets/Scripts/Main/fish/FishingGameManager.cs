@@ -112,7 +112,7 @@ public class FishingGameManager : MonoBehaviour
     [System.Serializable]
     public class FishData
     {
-        public int fishID;   // ? TopLeftProfile 연동용 ID
+        public int fishID;   // TopLeftProfile 연동용 ID
         public string fishName;
         public Sprite fishSprite;
         public Sprite gradeSprite;
@@ -167,7 +167,7 @@ public class FishingGameManager : MonoBehaviour
     // =================================
     public void StartFishingGame()
     {
-        isHoldButton = false;  // ? 자동 왼쪽 이동 버그 방지
+        isHoldButton = false;  // 자동 왼쪽 이동 버그 방지
 
         SetLobbyUI(false);
 
@@ -301,6 +301,17 @@ public class FishingGameManager : MonoBehaviour
         if (normalTrashList.Contains(data)) resultBackgroundImage.sprite = normalBG;
         else if (rareTrashList.Contains(data)) resultBackgroundImage.sprite = rareBG;
         else resultBackgroundImage.sprite = legendaryBG;
+
+        string grade = "Normal";
+        if (rareTrashList.Contains(data)) grade = "Rare";
+        else if (legendaryTrashList.Contains(data)) grade = "Legendary";
+
+        SellManager.Instance.AddItem(
+            data.trashSprite,
+            data.trashName,
+            data.sizeText,
+            grade
+        );
     }
 
     // =================================
@@ -331,8 +342,22 @@ public class FishingGameManager : MonoBehaviour
         else if (rareFishList.Contains(data)) resultBackgroundImage.sprite = rareBG;
         else resultBackgroundImage.sprite = legendaryBG;
 
-        // ? TopLeftProfile 연동
+        // TopLeftProfile 연동
         ProfileUIManager.Instance.UnlockFish(data.fishID);
+        BookManager.Instance.UpdateFishPages();
+
+        string grade = "Normal";
+        if (rareFishList.Contains(data)) grade = "Rare";
+        else if (legendaryFishList.Contains(data)) grade = "Legendary";
+
+        // ?? 여기만 변경! 물고기 전용 AddFishItem 사용
+        SellManager.Instance.AddFishItem(
+            data.fishID,
+            data.fishSprite,
+            data.fishName,
+            data.sizeText,
+            grade
+        );
     }
 
     // =================================
@@ -363,6 +388,6 @@ public class FishingGameManager : MonoBehaviour
         playerRect.anchoredPosition = new Vector2(playerStartX, playerRect.anchoredPosition.y);
 
         fishDirection = 1f;
-        isHoldButton = false; // ? 필수
+        isHoldButton = false;
     }
 }

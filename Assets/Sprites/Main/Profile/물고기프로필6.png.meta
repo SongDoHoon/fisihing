@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1897a49d966562247af38da4955cd3ea
+guid: 47638b52f5fc4474ab454aac37e51269
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -12800244860716792
-    second: "\u1103\u1161\u11BE_0"
+      213: -3266463562788321979
+    second: "\u1106\u116E\u11AF\u1100\u1169\u1100\u1175 \u1111\u1173\u1105\u1169\u1111\u1175\u11AF6_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -123,6 +123,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -139,13 +152,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\u1103\u1161\u11BE_0"
+      name: "\u1106\u116E\u11AF\u1100\u1169\u1100\u1175 \u1111\u1173\u1105\u1169\u1111\u1175\u11AF6_0"
       rect:
         serializedVersion: 2
-        x: 44
-        y: 234
-        width: 365
-        height: 392
+        x: 0
+        y: 0
+        width: 386
+        height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +167,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 809f900ce3682dff0800000000000000
-      internalID: -12800244860716792
+      spriteID: 545ce3432b03ba2d0800000000000000
+      internalID: -3266463562788321979
       vertices: []
       indices: 
       edges: []
@@ -174,7 +187,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "\u1103\u1161\u11BE_0": -12800244860716792
+      "\u1106\u116E\u11AF\u1100\u1169\u1100\u1175 \u1111\u1173\u1105\u1169\u1111\u1175\u11AF6_0": -3266463562788321979
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

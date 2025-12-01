@@ -4,6 +4,11 @@ public class FishingStartButton : MonoBehaviour
 {
     public void OnClickStartFishing()
     {
+        if (SellManager.Instance != null && SellManager.Instance.IsFull())
+        {
+            GlobalMessageUI.Instance.ShowMessage("판매 슬롯이 가득 찼습니다!");
+            return;
+        }
         // 에너지 매니저가 없으면 그냥 리턴
         if (EnergyManager.Instance == null)
         {
