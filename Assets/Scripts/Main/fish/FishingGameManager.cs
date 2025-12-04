@@ -252,8 +252,20 @@ public class FishingGameManager : MonoBehaviour
         return dist <= overlapRange;
     }
 
-    public void OnHoldButtonDown() => isHoldButton = true;
-    public void OnHoldButtonUp() => isHoldButton = false;
+    public void OnHoldButtonDown()
+    {
+        isHoldButton = true;
+
+        // ?? 홀드 사운드 시작
+        AudioManager.Instance.PlayFishingHold();
+    }
+    public void OnHoldButtonUp()
+    {
+        isHoldButton = false;
+
+        // ?? 홀드 사운드 정지
+        AudioManager.Instance.StopFishingHold();
+    }
 
     // =================================
     //   낚시 성공 시
@@ -261,6 +273,9 @@ public class FishingGameManager : MonoBehaviour
     private void OnFishingSuccess()
     {
         isPlaying = false;
+        AudioManager.Instance.StopFishingHold();
+
+        AudioManager.Instance.PlayFishingSuccess();
 
         fishingGamePanel.SetActive(false);
         rodImage.SetActive(false);
@@ -288,6 +303,8 @@ public class FishingGameManager : MonoBehaviour
 
     private void ShowTrashResult()
     {
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.resultOpenSFX);
+
         var data = GetRandomTrash();
 
         resultPanel.SetActive(true);
@@ -372,6 +389,8 @@ public class FishingGameManager : MonoBehaviour
     private void BackToLobby()
     {
         SetLobbyUI(true);
+
+        AudioManager.Instance.PlayBGM(AudioManager.Instance.mainBGM);
 
         isPlaying = false;
         fishingGamePanel.SetActive(false);

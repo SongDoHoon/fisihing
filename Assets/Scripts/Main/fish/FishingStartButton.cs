@@ -26,7 +26,9 @@ public class FishingStartButton : MonoBehaviour
         // 에너지 충분하면 낚시 미니게임 시작
         if (FishingGameManager.Instance != null)
         {
+            AudioManager.Instance.PlayBGM(AudioManager.Instance.fishingGameBGM);
             FishingGameManager.Instance.StartFishingGame();
+
         }
         else
         {

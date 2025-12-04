@@ -35,11 +35,13 @@ public class BookManager : MonoBehaviour
     {
         bookPanel.SetActive(true);
         UpdateFishPages();
+        ;
     }
 
     public void CloseBook()
     {
         bookPanel.SetActive(false);
+        
     }
 
     // ===== 페이지 이동 =====

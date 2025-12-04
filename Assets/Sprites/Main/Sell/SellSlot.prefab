@@ -99,6 +99,7 @@ MonoBehaviour:
   sizeText: {fileID: 9011605680336131249}
   priceText: {fileID: 2190622521021568115}
   price: 0
+  fishID: -1
 --- !u!1 &424563418880247500
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,7 +168,7 @@ MonoBehaviour:
   m_text: Size
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6b5841666ab93674e9bd9c7c030eeb95, type: 2}
-  m_sharedMaterial: {fileID: -321550108368592167, guid: 6b5841666ab93674e9bd9c7c030eeb95, type: 2}
+  m_sharedMaterial: {fileID: 5202203395125323344, guid: 6b5841666ab93674e9bd9c7c030eeb95, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -247,6 +248,7 @@ GameObject:
   - component: {fileID: 7354767887666055027}
   - component: {fileID: 5102049240748781865}
   - component: {fileID: 4615887126687488271}
+  - component: {fileID: 5415688194282147760}
   m_Layer: 5
   m_Name: SellButton
   m_TagString: Untagged
@@ -368,6 +370,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &5415688194282147760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687003126508421806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a02636aa4e39d84e8bd1d9c9ea89a4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customSFX: {fileID: 8300000, guid: 2f3a65306f547554da15cb3632c9f089, type: 3}
 --- !u!1 &833069591352961152
 GameObject:
   m_ObjectHideFlags: 0
@@ -586,7 +601,7 @@ MonoBehaviour:
   m_text: 500g
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6b5841666ab93674e9bd9c7c030eeb95, type: 2}
-  m_sharedMaterial: {fileID: -321550108368592167, guid: 6b5841666ab93674e9bd9c7c030eeb95, type: 2}
+  m_sharedMaterial: {fileID: 5202203395125323344, guid: 6b5841666ab93674e9bd9c7c030eeb95, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -722,7 +737,7 @@ MonoBehaviour:
   m_text: Name
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6b5841666ab93674e9bd9c7c030eeb95, type: 2}
-  m_sharedMaterial: {fileID: -321550108368592167, guid: 6b5841666ab93674e9bd9c7c030eeb95, type: 2}
+  m_sharedMaterial: {fileID: 5202203395125323344, guid: 6b5841666ab93674e9bd9c7c030eeb95, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
