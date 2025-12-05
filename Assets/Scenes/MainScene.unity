@@ -530,7 +530,7 @@ RectTransform:
   m_Father: {fileID: 1525987380}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2639,7 +2639,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &383649733
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5078,8 +5078,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 615836357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -9231,8 +9231,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 909806130}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -9726,7 +9726,7 @@ RectTransform:
   m_Father: {fileID: 1011897685}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -11243,8 +11243,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 848213735}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -14489,7 +14489,34 @@ MonoBehaviour:
   - {fileID: 315405838}
   fishSelectPopup: {fileID: 947679104}
   contentParent: {fileID: 403699997}
-  fishSelectButtonPrefab: {fileID: 1560382115736879545, guid: df7829f2b27ff774e8db80d822e09918, type: 3}
+  fishSelectButtonPrefab: {fileID: 8803986838108121333, guid: 03c20d20be38ce047a651b791b210d05, type: 3}
+  popupFishSprites:
+  - {fileID: 21300000, guid: 6c9f775b9799e564d8b1d88181ba63bc, type: 3}
+  - {fileID: 21300000, guid: 6c11c138338354e428c95a85374f2a14, type: 3}
+  - {fileID: 21300000, guid: e5fb99b817072f14d9d0bbfe2dc46e97, type: 3}
+  - {fileID: 21300000, guid: cddb654438a26844c8b6e1056225a44f, type: 3}
+  - {fileID: 21300000, guid: a8f78b1dea97f994f8ad5ff2e6e502fb, type: 3}
+  - {fileID: 21300000, guid: 47638b52f5fc4474ab454aac37e51269, type: 3}
+  - {fileID: 21300000, guid: 96a396e681007ad42ad1500a435d12d0, type: 3}
+  - {fileID: 21300000, guid: 0870c4472d939ac40811aec38586a3be, type: 3}
+  aquariumSlotSprites:
+  - {fileID: 21300000, guid: 371d66445846ed346a94d10a08ac3f56, type: 3}
+  - {fileID: 21300000, guid: 32e194eb0c08b654ea9b1297b2383030, type: 3}
+  - {fileID: 21300000, guid: 60e9ebc723e1c71409309f15d1ae43bd, type: 3}
+  - {fileID: 21300000, guid: 0277539eb85f54946adb9a451c22fd12, type: 3}
+  - {fileID: 21300000, guid: c939e6f0e8b9fe34ea9278250561fdef, type: 3}
+  - {fileID: 21300000, guid: 5929646ed9d6a214e967d352215fd67b, type: 3}
+  - {fileID: 21300000, guid: 2e1eb7fe25df27546801470747bc9b3e, type: 3}
+  - {fileID: 21300000, guid: 26dc38f69fb72ae43b7b968a760adb2b, type: 3}
+  tankFishSprites:
+  - {fileID: 21300000, guid: 371d66445846ed346a94d10a08ac3f56, type: 3}
+  - {fileID: 21300000, guid: 32e194eb0c08b654ea9b1297b2383030, type: 3}
+  - {fileID: 21300000, guid: 60e9ebc723e1c71409309f15d1ae43bd, type: 3}
+  - {fileID: 21300000, guid: 0277539eb85f54946adb9a451c22fd12, type: 3}
+  - {fileID: 21300000, guid: c939e6f0e8b9fe34ea9278250561fdef, type: 3}
+  - {fileID: 21300000, guid: 5929646ed9d6a214e967d352215fd67b, type: 3}
+  - {fileID: 21300000, guid: 2e1eb7fe25df27546801470747bc9b3e, type: 3}
+  - {fileID: 21300000, guid: 26dc38f69fb72ae43b7b968a760adb2b, type: 3}
 --- !u!1 &1945918066
 GameObject:
   m_ObjectHideFlags: 0
@@ -14523,7 +14550,7 @@ RectTransform:
   m_Father: {fileID: 1393420781}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
