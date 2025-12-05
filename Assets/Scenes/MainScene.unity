@@ -14500,23 +14500,23 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 96a396e681007ad42ad1500a435d12d0, type: 3}
   - {fileID: 21300000, guid: 0870c4472d939ac40811aec38586a3be, type: 3}
   aquariumSlotSprites:
-  - {fileID: 21300000, guid: 371d66445846ed346a94d10a08ac3f56, type: 3}
-  - {fileID: 21300000, guid: 32e194eb0c08b654ea9b1297b2383030, type: 3}
-  - {fileID: 21300000, guid: 60e9ebc723e1c71409309f15d1ae43bd, type: 3}
-  - {fileID: 21300000, guid: 0277539eb85f54946adb9a451c22fd12, type: 3}
-  - {fileID: 21300000, guid: c939e6f0e8b9fe34ea9278250561fdef, type: 3}
-  - {fileID: 21300000, guid: 5929646ed9d6a214e967d352215fd67b, type: 3}
-  - {fileID: 21300000, guid: 2e1eb7fe25df27546801470747bc9b3e, type: 3}
-  - {fileID: 21300000, guid: 26dc38f69fb72ae43b7b968a760adb2b, type: 3}
+  - {fileID: 21300000, guid: 03436c7459ecfd14a9bcb00df62d665e, type: 3}
+  - {fileID: 21300000, guid: 5aefd757343d00b488e069f56c661759, type: 3}
+  - {fileID: 21300000, guid: d7a9ef7ad0058c74d81d1787ba44e00e, type: 3}
+  - {fileID: 21300000, guid: 7f8e5e86ddeee7d4c87af69281fd3de6, type: 3}
+  - {fileID: 21300000, guid: 26d285f5a2cb7d34e96d5d7c2234626a, type: 3}
+  - {fileID: 21300000, guid: e982cc7db7fdcb641a2122cdf009d823, type: 3}
+  - {fileID: 21300000, guid: 792162994199fab4dbc288c74d039590, type: 3}
+  - {fileID: 21300000, guid: 2cdf5af562aa73e43b20c1f901eeb510, type: 3}
   tankFishSprites:
-  - {fileID: 21300000, guid: 371d66445846ed346a94d10a08ac3f56, type: 3}
-  - {fileID: 21300000, guid: 32e194eb0c08b654ea9b1297b2383030, type: 3}
-  - {fileID: 21300000, guid: 60e9ebc723e1c71409309f15d1ae43bd, type: 3}
-  - {fileID: 21300000, guid: 0277539eb85f54946adb9a451c22fd12, type: 3}
-  - {fileID: 21300000, guid: c939e6f0e8b9fe34ea9278250561fdef, type: 3}
-  - {fileID: 21300000, guid: 5929646ed9d6a214e967d352215fd67b, type: 3}
-  - {fileID: 21300000, guid: 2e1eb7fe25df27546801470747bc9b3e, type: 3}
-  - {fileID: 21300000, guid: 26dc38f69fb72ae43b7b968a760adb2b, type: 3}
+  - {fileID: 21300000, guid: 122264e129064814982de99f00cbf0e5, type: 3}
+  - {fileID: 21300000, guid: f456b2b33be439441a484c4c052f273e, type: 3}
+  - {fileID: 21300000, guid: b88f3c8ba96f2b544b772c6d7cea1454, type: 3}
+  - {fileID: 21300000, guid: e2b37768f205f9d46aec20699c505077, type: 3}
+  - {fileID: 21300000, guid: 6025480bd36e01b48845b116f0c918ff, type: 3}
+  - {fileID: 21300000, guid: 4da5454d60b59e74c813dda77641bc9f, type: 3}
+  - {fileID: 21300000, guid: 5f62bb0b9a5798d408925c277622e973, type: 3}
+  - {fileID: 21300000, guid: 1fd94e429e88a1f49bcfba54d520102d, type: 3}
 --- !u!1 &1945918066
 GameObject:
   m_ObjectHideFlags: 0
